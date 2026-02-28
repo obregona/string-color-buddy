@@ -26,39 +26,20 @@ const StringIdentifier = () => {
         <ColorPicker label="Ball End Color" selectedColor={ballEndColor} onSelect={setBallEndColor} />
       </div>
 
-      {(pegColor || ballEndColor) && (
+      {(pegColor && ballEndColor) && (
         <div className="space-y-3 pt-2">
           <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider">
             {results.length} Match{results.length !== 1 && "es"} Found
           </h3>
-          {results.length > 0 ? (
-            <div className="grid gap-2">
-              {results.map((r, i) => (
-                <div
-                  key={i}
-                  className="flex items-center justify-between rounded-lg border border-border bg-secondary/50 px-4 py-3 transition-colors hover:bg-secondary"
-                >
-                  <div>
-                    <span className="font-semibold text-foreground">{r.brand}</span>
-                    <span className="text-muted-foreground"> — {r.model}</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-muted-foreground">
-                      Peg: {r.pegLabel} · Ball: {r.ballEndLabel}
-                    </span>
-                    <span className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-primary/15 text-primary font-bold text-sm">
-                      {r.note}
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p className="text-muted-foreground text-sm italic">
-              No matching strings found. Try adjusting the colors or send us a suggestion below!
-            </p>
-          )}
+          {/* ... resto del código de resultados ... */}
         </div>
+      )}
+      
+      {/* OPCIONAL: Mostrar un mensaje de ayuda si solo hay uno seleccionado */}
+      {(pegColor || ballEndColor) && !(pegColor && ballEndColor) && (
+        <p className="text-center text-sm text-muted-foreground animate-pulse">
+          Selecciona el segundo color para ver los resultados...
+        </p>
       )}
     </div>
   );
