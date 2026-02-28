@@ -42,10 +42,10 @@ const SuggestionForm = () => {
 
     emailjs
       .send(
-        "TU_SERVICE_ID", 
-        "TU_TEMPLATE_ID", 
+        "idcuerdasmail", 
+        "idcuerdastemplate", 
         templateParams,
-        "TU_PUBLIC_KEY"
+        "Jk49F4FTeYgTZjotG"
       )
       .then(
         () => {
