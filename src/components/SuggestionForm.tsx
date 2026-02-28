@@ -2,24 +2,25 @@ import { useState } from "react";
 import { Send } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
-import emailjs from "@emailjs/browser"; // Importamos la librería
+import emailjs from "@emailjs/browser";
 
+// 1. Eliminamos el email de la validación
 const suggestionSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
-  email: z.string().trim().email("Invalid email").max(255),
   message: z.string().trim().min(1, "Message is required").max(2000),
 });
 
 const SuggestionForm = () => {
   const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
-  const [isSending, setIsSending] = useState(false); // Estado para el botón
+  const [isSending, setIsSending] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const result = suggestionSchema.safeParse({ name, email, message });
+    
+    // 2. Validamos solo nombre y mensaje
+    const result = suggestionSchema.safeParse({ name, message });
 
     if (!result.success) {
       const fieldErrors: Record<string, string> = {};
@@ -33,25 +34,23 @@ const SuggestionForm = () => {
     setErrors({});
     setIsSending(true);
 
-    // --- CONFIGURACIÓN DE EMAILJS ---
+    // 3. Enviamos a EmailJS sin el campo de email
     const templateParams = {
       from_name: name,
-      from_email: email,
       message: message,
     };
 
     emailjs
       .send(
-        "idcuerdasmail",     // Reemplazar con tu Service ID
-        "idcuerdastemplate",    // Reemplazar con tu Template ID
+        "TU_SERVICE_ID", 
+        "TU_TEMPLATE_ID", 
         templateParams,
-        "Jk49F4FTeYgTZjotG"      // Reemplazar con tu Public Key
+        "TU_PUBLIC_KEY"
       )
       .then(
         () => {
-          toast.success("Thank you! Your suggestion has been sent via EmailJS.");
+          toast.success("Thank you! Your suggestion has been sent.");
           setName("");
-          setEmail("");
           setMessage("");
           setIsSending(false);
         },
@@ -76,32 +75,20 @@ const SuggestionForm = () => {
       </div>
 
       <form onSubmit={handleSubmit} className="space-y-4">
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div className="space-y-1.5">
-            <label className="text-sm font-medium text-muted-foreground">Name</label>
-            <input
-              type="text"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              placeholder="Your name"
-              disabled={isSending}
-            />
-            {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
-          </div>
-          <div className="space-y-1.5">
-            <label className="text-sm font-medium text-muted-foreground">Email</label>
-            <input
-              type="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-              placeholder="your@email.com"
-              disabled={isSending}
-            />
-            {errors.email && <p className="text-xs text-destructive">{errors.email}</p>}
-          </div>
+        {/* Ajustamos el grid para que el nombre ocupe todo el ancho si querés */}
+        <div className="space-y-1.5">
+          <label className="text-sm font-medium text-muted-foreground">Name</label>
+          <input
+            type="text"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+            placeholder="Your name"
+            disabled={isSending}
+          />
+          {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
         </div>
+
         <div className="space-y-1.5">
           <label className="text-sm font-medium text-muted-foreground">Message</label>
           <textarea
@@ -114,6 +101,7 @@ const SuggestionForm = () => {
           />
           {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
         </div>
+
         <button
           type="submit"
           disabled={isSending}
