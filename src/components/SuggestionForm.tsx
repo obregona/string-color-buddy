@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Send } from "lucide-react";
 import { toast } from "sonner";
 import { z } from "zod";
+import emailjs from "@emailjs/browser"; // Importamos la librería
 
 const suggestionSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -14,6 +15,7 @@ const SuggestionForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [isSending, setIsSending] = useState(false); // Estado para el botón
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -29,10 +31,36 @@ const SuggestionForm = () => {
     }
 
     setErrors({});
-    toast.success("Thank you! Your suggestion has been submitted.");
-    setName("");
-    setEmail("");
-    setMessage("");
+    setIsSending(true);
+
+    // --- CONFIGURACIÓN DE EMAILJS ---
+    const templateParams = {
+      from_name: name,
+      from_email: email,
+      message: message,
+    };
+
+    emailjs
+      .send(
+        "idcuerdasmail",     // Reemplazar con tu Service ID
+        "idcuerdastemplate",    // Reemplazar con tu Template ID
+        templateParams,
+        "Jk49F4FTeYgTZjotG"      // Reemplazar con tu Public Key
+      )
+      .then(
+        () => {
+          toast.success("Thank you! Your suggestion has been sent via EmailJS.");
+          setName("");
+          setEmail("");
+          setMessage("");
+          setIsSending(false);
+        },
+        (error) => {
+          console.error("EmailJS Error:", error);
+          toast.error("Failed to send. Please try again later.");
+          setIsSending(false);
+        }
+      );
   };
 
   return (
@@ -57,6 +85,7 @@ const SuggestionForm = () => {
               onChange={(e) => setName(e.target.value)}
               className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               placeholder="Your name"
+              disabled={isSending}
             />
             {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
           </div>
@@ -68,6 +97,7 @@ const SuggestionForm = () => {
               onChange={(e) => setEmail(e.target.value)}
               className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
               placeholder="your@email.com"
+              disabled={isSending}
             />
             {errors.email && <p className="text-xs text-destructive">{errors.email}</p>}
           </div>
@@ -79,16 +109,18 @@ const SuggestionForm = () => {
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
             className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
-            placeholder="e.g. 'Please add Jargar strings — G string has a blue peg wrap...'"
+            placeholder="e.g. 'Please add Jargar strings...'"
+            disabled={isSending}
           />
           {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
         </div>
         <button
           type="submit"
-          className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg"
+          disabled={isSending}
+          className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-all hover:bg-primary/90 hover:shadow-lg disabled:opacity-50"
         >
           <Send className="w-4 h-4" />
-          Submit Suggestion
+          {isSending ? "Sending..." : "Submit Suggestion"}
         </button>
       </form>
     </div>
