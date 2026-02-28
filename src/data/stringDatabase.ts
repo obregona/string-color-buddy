@@ -60,7 +60,6 @@ export const COLORS = [
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
   },
   
-  { label: "None", value: "transparent" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
