@@ -17,25 +17,26 @@ const ColorPicker = ({ label, selectedColor, onSelect }: ColorPickerProps) => {
           <button
             key={color.label}
             onClick={() => onSelect(selectedColor === color.value ? null : color.value)}
+            // El atributo 'title' es el que crea la observación del mouse
+            title={color.label} 
             className={`group relative w-9 h-9 rounded-full border-2 transition-all duration-200 hover:scale-110 ${
               selectedColor === color.value
                 ? "border-primary ring-2 ring-primary/40 scale-110"
                 : "border-border hover:border-muted-foreground"
             }`}
-            title={color.label}
           >
             <span
               className="block w-full h-full rounded-full"
               style={{
-                // Usamos una sola propiedad 'background' para todo
                 background: color.value === "transparent" 
                   ? "repeating-conic-gradient(hsl(var(--muted)) 0% 25%, transparent 0% 50%) 50% / 8px 8px" 
                   : color.value,
               }}
             />
-            <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-              {color.label}
-            </span>
+            
+            {/* SE ELIMINÓ EL SPAN QUE MOSTRABA EL TEXTO ABAJO 
+               PARA QUE YA NO APAREZCA FÍSICAMENTE EN LA WEB 
+            */}
           </button>
         ))}
       </div>
