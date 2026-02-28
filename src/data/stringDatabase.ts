@@ -109,7 +109,7 @@ export const STRING_DATABASE: StringSet[] = [
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
@@ -137,7 +137,7 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Thomastik",
     model: "Superflexible",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
       { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
       { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
       { note: "E", peg: "#1C1917", pegLabel: "Black", ballEnd: "#1C1917", ballEndLabel: "Black" },
@@ -160,7 +160,7 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#1C1917", ballEndLabel: "Black" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
       { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
     ],
   },
   {
