@@ -27,7 +27,7 @@ const ColorPicker = ({ label, selectedColor, onSelect }: ColorPickerProps) => {
             <span
               className="block w-full h-full rounded-full"
               style={{
-                backgroundColor: color.value === "transparent" ? undefined : color.value,
+                background: color.value === "transparent" ? undefined : color.value,
                 backgroundImage: color.value === "transparent"
                   ? "linear-gradient(45deg, hsl(var(--muted)) 25%, transparent 25%, transparent 75%, hsl(var(--muted)) 75%), linear-gradient(45deg, hsl(var(--muted)) 25%, transparent 25%, transparent 75%, hsl(var(--muted)) 75%)"
                   : undefined,
