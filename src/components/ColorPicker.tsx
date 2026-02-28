@@ -27,12 +27,10 @@ const ColorPicker = ({ label, selectedColor, onSelect }: ColorPickerProps) => {
             <span
               className="block w-full h-full rounded-full"
               style={{
-                background: color.value === "transparent" ? undefined : color.value,
-                backgroundImage: color.value === "transparent"
-                  ? "linear-gradient(45deg, hsl(var(--muted)) 25%, transparent 25%, transparent 75%, hsl(var(--muted)) 75%), linear-gradient(45deg, hsl(var(--muted)) 25%, transparent 25%, transparent 75%, hsl(var(--muted)) 75%)"
-                  : undefined,
-                backgroundSize: "8px 8px",
-                backgroundPosition: "0 0, 4px 4px",
+                // Usamos una sola propiedad 'background' para todo
+                background: color.value === "transparent" 
+                  ? "repeating-conic-gradient(hsl(var(--muted)) 0% 25%, transparent 0% 50%) 50% / 8px 8px" 
+                  : color.value,
               }}
             />
             <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[10px] text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
