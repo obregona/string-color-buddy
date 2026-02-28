@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Music } from "lucide-react";
+import { Info } from "lucide-react";
 import { STRING_DATABASE } from "@/data/stringDatabase";
 
 const BrandBrowser = () => {
@@ -14,7 +14,7 @@ const BrandBrowser = () => {
     <div className="rounded-xl border border-border bg-card p-6 md:p-8 space-y-6">
       <div className="flex items-center gap-3">
         <div className="p-2.5 rounded-lg bg-primary/10">
-          <Music className="w-5 h-5 text-primary" />
+          <Info className="w-5 h-5 text-primary" />
         </div>
         <div>
           <h2 className="text-2xl font-display font-semibold text-foreground">Browse by Brand</h2>
