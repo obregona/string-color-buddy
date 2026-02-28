@@ -33,6 +33,33 @@ export const COLORS = [
   { label: "Silver", value: "#A8A29E" },
   { label: "Gold", value: "#CA8A04" },
   { label: "Pink", value: "#EC4899" },
+  
+  // --- NUEVOS COLORES RAYADOS (SPIRAL SILK) ---
+  { 
+    label: "Red/White Spiral", 
+    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #F5F5F4 6px, #F5F5F4 8px)" 
+  },
+  { 
+    label: "Blue/White Spiral", 
+    value: "repeating-linear-gradient(45deg, #2563EB, #2563EB 6px, #F5F5F4 6px, #F5F5F4 8px)" 
+  },
+  { 
+    label: "Green/White Spiral", 
+    value: "repeating-linear-gradient(45deg, #16A34A, #16A34A 6px, #F5F5F4 6px, #F5F5F4 8px)" 
+  },
+  { 
+    label: "Black/Yellow Spiral", 
+    value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" 
+  },
+  { 
+    label: "Purple/White Spiral", 
+    value: "repeating-linear-gradient(45deg, #9333EA, #9333EA 6px, #F5F5F4 6px, #F5F5F4 8px)" 
+  },
+  { 
+    label: "Red/Black Spiral", 
+    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
+  },
+  
   { label: "None", value: "transparent" },
 ] as const;
 
