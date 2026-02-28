@@ -118,9 +118,9 @@ export const STRING_DATABASE: StringSet[] = [
     model: "Spirocore",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "E", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
     ],
   },
   {
