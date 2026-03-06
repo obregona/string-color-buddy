@@ -34,7 +34,6 @@ export const COLORS = [
   { label: "Gold", value: "#CA8A04" },
   { label: "Pink", value: "#EC4899" },
   
-  // --- NUEVOS COLORES RAYADOS (SPIRAL SILK) ---
   { 
     label: "Red/White Spiral", 
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #F5F5F4 6px, #F5F5F4 8px)" 
@@ -63,7 +62,8 @@ export const COLORS = [
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
-{
+const doubleBassStrings = [
+  {
     brand: "D'Addario",
     model: "Kaplan",
     strings: [
@@ -81,6 +81,16 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
       { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+    ],
+  },
+  {
+    brand: "D'Addario",
+    model: "Helicore Orchestral",
+    strings: [
+      { note: "G", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
   {
@@ -111,29 +121,29 @@ export const STRING_DATABASE: StringSet[] = [
         note: "G", 
         peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
         pegLabel: "Black/Green Stripe", 
-        ballEnd: "#16A34A", 
-        ballEndLabel: "Green" 
+        ballEnd: "#000000", 
+        ballEndLabel: "Black" 
       },
       { 
         note: "D", 
         peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
         pegLabel: "Black/Green Stripe", 
-        ballEnd: "#2563EB", 
-        ballEndLabel: "Blue" 
+        ballEnd: "#000000", 
+        ballEndLabel: "Black" 
       },
       { 
         note: "A", 
         peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
         pegLabel: "Black/Green Stripe", 
-        ballEnd: "#DC2626", 
-        ballEndLabel: "Red" 
+        ballEnd: "#000000", 
+        ballEndLabel: "Black" 
       },
       { 
         note: "E", 
         peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
         pegLabel: "Black/Green Stripe", 
-        ballEnd: "#EAB308", 
-        ballEndLabel: "Yellow" 
+        ballEnd: "#000000", 
+        ballEndLabel: "Black" 
       },
     ],
   },
@@ -145,15 +155,15 @@ export const STRING_DATABASE: StringSet[] = [
         note: "G", 
         peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
         pegLabel: "Red/Black Stripe", 
-        ballEnd: "#16A34A", 
-        ballEndLabel: "Green" 
+        ballEnd: "#DC2626", 
+        ballEndLabel: "Red" 
       },
       { 
         note: "D", 
         peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
         pegLabel: "Red/Black Stripe", 
-        ballEnd: "#2563EB", 
-        ballEndLabel: "Blue" 
+        ballEnd: "#DC2626", 
+        ballEndLabel: "Red" 
       },
       { 
         note: "A", 
@@ -166,12 +176,19 @@ export const STRING_DATABASE: StringSet[] = [
         note: "E", 
         peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
         pegLabel: "Red/Black Stripe", 
-        ballEnd: "#EAB308", 
-        ballEndLabel: "Yellow" 
+        ballEnd: "#DC2626", 
+        ballEndLabel: "Red" 
       },
     ],
-  }
-];
+  },
+  {
+    brand: "Pirastro",
+    model: "Perpetual",
+    strings: [
+      { 
+        note: "G", 
+        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
+        pegLabel: "Yellow/Grey Stripe",
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
   const results: { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] = [];
