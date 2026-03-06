@@ -97,9 +97,9 @@ export const STRING_DATABASE: StringSet[] = [
     model: "Spirocore",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
     ],
   },
   {
@@ -187,11 +187,34 @@ export const STRING_DATABASE: StringSet[] = [
       { 
         note: "G", 
         peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
-        pegLabel: "Yellow/Grey Stripe",
-        },
+        pegLabel: "Yellow/Grey Stripe", 
+        ballEnd: "#A1A1AA", 
+        ballEndLabel: "Grey" 
+      },
+      { 
+        note: "D", 
+        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
+        pegLabel: "Yellow/Grey Stripe", 
+        ballEnd: "#A1A1AA", 
+        ballEndLabel: "Grey" 
+      },
+      { 
+        note: "A", 
+        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
+        pegLabel: "Yellow/Grey Stripe", 
+        ballEnd: "#A1A1AA", 
+        ballEndLabel: "Grey" 
+      },
+      { 
+        note: "E", 
+        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
+        pegLabel: "Yellow/Grey Stripe", 
+        ballEnd: "#A1A1AA", 
+        ballEndLabel: "Grey" 
+      },
     ],
-  }, // <--- Cerramos el objeto del modelo Perpetual
-]; // <--- Cerramos el array STRING_DATABASE
+  }
+];
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
   const results: { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] = [];
