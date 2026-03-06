@@ -63,156 +63,114 @@ export const COLORS = [
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
-  {
-    brand: "D'Addario",
-    model: "Helicore",
-    strings: [
-      { note: "G", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-    ],
-  },
-  {
-    brand: "D'Addario",
-    model: "Helicore Hybrid",
-    strings: [
-      { note: "G", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-    ],
-  },
-  {
+{
     brand: "D'Addario",
     model: "Kaplan",
     strings: [
-      { note: "G", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+      { note: "G", peg: "#F97316", pegLabel: "Orange", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "D", peg: "#F97316", pegLabel: "Orange", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#F97316", pegLabel: "Orange", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#F97316", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
   {
     brand: "D'Addario",
     model: "Zyex",
     strings: [
-      { note: "G", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
   {
-    brand: "D'Addario",
-    model: "Prelude",
+    brand: "Thomastik-Infeld",
+    model: "Spirocore",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
   {
-    brand: "Thomastik",
-    model: "Spirocore",
-    strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-    ],
-  },
-  {
-    brand: "Thomastik",
+    brand: "Thomastik-Infeld",
     model: "Belcanto",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "E", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#1C1917", ballEndLabel: "Black" },
-    ],
-  },
-  {
-    brand: "Thomastik",
-    model: "Superflexible",
-    strings: [
-      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "E", peg: "#1C1917", pegLabel: "Black", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "G", peg: "#F97316", pegLabel: "Orange", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "D", peg: "#F97316", pegLabel: "Orange", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#F97316", pegLabel: "Orange", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#F97316", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
   {
     brand: "Pirastro",
     model: "Evah Pirazzi",
     strings: [
-      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "#1C1917", pegLabel: "Black", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "E", peg: "#1C1917", pegLabel: "Black", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { 
+        note: "G", 
+        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
+        pegLabel: "Black/Green Stripe", 
+        ballEnd: "#16A34A", 
+        ballEndLabel: "Green" 
+      },
+      { 
+        note: "D", 
+        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
+        pegLabel: "Black/Green Stripe", 
+        ballEnd: "#2563EB", 
+        ballEndLabel: "Blue" 
+      },
+      { 
+        note: "A", 
+        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
+        pegLabel: "Black/Green Stripe", 
+        ballEnd: "#DC2626", 
+        ballEndLabel: "Red" 
+      },
+      { 
+        note: "E", 
+        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
+        pegLabel: "Black/Green Stripe", 
+        ballEnd: "#EAB308", 
+        ballEndLabel: "Yellow" 
+      },
     ],
   },
   {
     brand: "Pirastro",
     model: "Obligato",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { 
+        note: "G", 
+        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
+        pegLabel: "Red/Black Stripe", 
+        ballEnd: "#16A34A", 
+        ballEndLabel: "Green" 
+      },
+      { 
+        note: "D", 
+        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
+        pegLabel: "Red/Black Stripe", 
+        ballEnd: "#2563EB", 
+        ballEndLabel: "Blue" 
+      },
+      { 
+        note: "A", 
+        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
+        pegLabel: "Red/Black Stripe", 
+        ballEnd: "#DC2626", 
+        ballEndLabel: "Red" 
+      },
+      { 
+        note: "E", 
+        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
+        pegLabel: "Red/Black Stripe", 
+        ballEnd: "#EAB308", 
+        ballEndLabel: "Yellow" 
+      },
     ],
-  },
-  {
-    brand: "Pirastro",
-    model: "Flexocor",
-    strings: [
-      { note: "G", peg: "#16A34A", pegLabel: "Green", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#DC2626", ballEndLabel: "Red" },
-    ],
-  },
-  {
-    brand: "Pirastro",
-    model: "Original Flat-Chrome",
-    strings: [
-      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#DC2626", ballEndLabel: "Red" },
-    ],
-  },
-  {
-    brand: "Velvet",
-    model: "Anima",
-    strings: [
-      { note: "G", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "E", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-    ],
-  },
-  {
-    brand: "Velvet",
-    model: "Garbo",
-    strings: [
-      { note: "G", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#EA580C", ballEndLabel: "Orange" },
-      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#9333EA", ballEndLabel: "Purple" },
-      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#F5F5F4", ballEndLabel: "White" },
-      { note: "E", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#1C1917", ballEndLabel: "Black" },
-    ],
-  },
-  {
-    brand: "Corelli",
-    model: "370 (Nickel)",
-    strings: [
-      { note: "G", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-    ],
-  },
+  }
 ];
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
