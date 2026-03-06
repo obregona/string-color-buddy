@@ -62,7 +62,6 @@ export const COLORS = [
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
-const doubleBassStrings = [
   {
     brand: "D'Addario",
     model: "Kaplan",
