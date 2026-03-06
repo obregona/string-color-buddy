@@ -188,6 +188,10 @@ export const STRING_DATABASE: StringSet[] = [
         note: "G", 
         peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
         pegLabel: "Yellow/Grey Stripe",
+        },
+    ],
+  }, // <--- Cerramos el objeto del modelo Perpetual
+]; // <--- Cerramos el array STRING_DATABASE
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
   const results: { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] = [];
