@@ -33,7 +33,7 @@ export const COLORS = [
   { label: "Silver", value: "#A8A29E" },
   { label: "Gold", value: "#CA8A04" },
   { label: "Pink", value: "#EC4899" },
-  { label: "Wine", value: ¨#722F37¨ },
+  { label: "Wine", value: "#722F37" },
   
   { 
     label: "Red/White Spiral", 
