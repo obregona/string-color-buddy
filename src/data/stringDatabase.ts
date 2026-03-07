@@ -129,7 +129,7 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
     ],
-  }
+  },
     {
     brand: "Thomastik-Infeld",
     model: "Spirocore",
