@@ -49,8 +49,8 @@ const BrandBrowser = () => {
                     <span className="text-lg font-bold text-foreground">{s.note}</span>
                     
                     {/* Contenedor de círculos: Peg arriba, Ball abajo */}
-                    <div className="flex flex-col items-center gap-2">
-                      <div className="flex flex-col items-center gap-1">
+                    <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-1">
                         <span
                           className="w-5 h-5 rounded-full border border-border"
                           style={{ background: s.peg }}
