@@ -64,7 +64,8 @@ const BrandBrowser = () => {
                       </div>
                     </div>
                     <span className="text-[10px] text-muted-foreground">
-                      {s.pegLabel}    -    {s.ballEndLabel}
+                      {s.pegLabel}
+                      {s.ballEndLabel}
                     </span>
                   </div>
                 ))}
