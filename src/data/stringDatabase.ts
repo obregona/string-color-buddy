@@ -119,15 +119,15 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
     ],
-  }
+  },
    {
     brand: "Pirastro",
     model: "Flat-Chrome Medium Orch",
     strings: [
-      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd:"repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)", ballEndLabel: "Violet" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)", ballEndLabel: "Violet" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)", ballEndLabel: "Violet" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)", ballEndLabel: "Violet" },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd:"repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Violet" },
     ],
   }
     {
