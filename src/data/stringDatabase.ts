@@ -58,6 +58,14 @@ export const COLORS = [
     label: "Red/Black Spiral", 
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
   },
+   { 
+    label: "Red/Black Spiral", 
+    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
+  },
+  { 
+  label: "Dark Green/Black Stripes", 
+  value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" 
+  },
   
 ] as const;
 
@@ -112,38 +120,14 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "#F97316", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
-  {
+ {
     brand: "Pirastro",
-    model: "Evah Pirazzi",
+    model: "Evah Pirazzi Medium or Light Orchestra Tuning",
     strings: [
-      { 
-        note: "G", 
-        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
-        pegLabel: "Black/Green Stripe", 
-        ballEnd: "#000000", 
-        ballEndLabel: "Black" 
-      },
-      { 
-        note: "D", 
-        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
-        pegLabel: "Black/Green Stripe", 
-        ballEnd: "#000000", 
-        ballEndLabel: "Black" 
-      },
-      { 
-        note: "A", 
-        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
-        pegLabel: "Black/Green Stripe", 
-        ballEnd: "#000000", 
-        ballEndLabel: "Black" 
-      },
-      { 
-        note: "E", 
-        peg: "repeating-linear-gradient(45deg, #000000, #000000 6px, #16A34A 6px, #16A34A 8px)", 
-        pegLabel: "Black/Green Stripe", 
-        ballEnd: "#000000", 
-        ballEndLabel: "Black" 
-      },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
+      { note: "E", peg: "##16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
     ],
   },
   {
