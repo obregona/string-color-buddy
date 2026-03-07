@@ -19,7 +19,7 @@ export interface StringSet {
 
 export const COLORS = [
   { label: "Red", value: "#DC2626" },
-  { label: "Dark Red", value: "#991B1B" },
+  { label: "Wine", value: "#991B1B" },
   { label: "Blue", value: "#2563EB" },
   { label: "Dark Blue", value: "#1E3A8A" },
   { label: "Green", value: "#16A34A" },
@@ -122,46 +122,22 @@ export const STRING_DATABASE: StringSet[] = [
   },
  {
     brand: "Pirastro",
-    model: "Evah Pirazzi Medium or Light Orchestra Tuning",
+    model: "Evah Pirazzi Medium or Light Orch",
     strings: [
       { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
-      { note: "E", peg: "##16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)", ballEndLabel: "Dark Green/Black Stripes" },
     ],
   },
   {
     brand: "Pirastro",
-    model: "Obligato",
+    model: "Flexocor Chromesteel Med Or Light Orch",
     strings: [
-      { 
-        note: "G", 
-        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
-        pegLabel: "Red/Black Stripe", 
-        ballEnd: "#DC2626", 
-        ballEndLabel: "Red" 
-      },
-      { 
-        note: "D", 
-        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
-        pegLabel: "Red/Black Stripe", 
-        ballEnd: "#DC2626", 
-        ballEndLabel: "Red" 
-      },
-      { 
-        note: "A", 
-        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
-        pegLabel: "Red/Black Stripe", 
-        ballEnd: "#DC2626", 
-        ballEndLabel: "Red" 
-      },
-      { 
-        note: "E", 
-        peg: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #000000 6px, #000000 8px)", 
-        pegLabel: "Red/Black Stripe", 
-        ballEnd: "#DC2626", 
-        ballEndLabel: "Red" 
-      },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#991B1B", ballEndLabel: "Wine" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#991B1B", ballEndLabel: "Wine" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#991B1B", ballEndLabel: "Wine" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#991B1B", ballEndLabel: "Wine" },
     ],
   },
   {
