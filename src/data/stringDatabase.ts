@@ -68,38 +68,26 @@ export const COLORS = [
   label: "Dark Green/Black Stripes", 
   value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" 
   },
+  { 
+  label: "Orange/Black Stripes", 
+  value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)" 
+  },
   
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
   {
-    brand: "D'Addario",
-    model: "Kaplan",
+    brand: "Pirastro",
+    model: "Obligato Medium",
     strings: [
-      { note: "G", peg: "#F97316", pegLabel: "Orange", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#F97316", pegLabel: "Orange", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#F97316", pegLabel: "Orange", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#F97316", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-    ],
-  },
-  {
-    brand: "D'Addario",
-    model: "Zyex",
-    strings: [
-      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
-    ],
-  },
-  {
-    brand: "D'Addario",
-    model: "Helicore Orchestral",
-    strings: [
-      { note: "G", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", 
+       ballEndLabel: "Orange/Black Stripes" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", 
+       ballEndLabel: "Orange/Black Stripes" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", 
+       ballEndLabel: "Orange/Black Stripes" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", 
+       ballEndLabel: "Orange/Black Stripes" },
     ],
   },
   {
@@ -110,16 +98,6 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-    ],
-  },
-  {
-    brand: "Thomastik-Infeld",
-    model: "Belcanto",
-    strings: [
-      { note: "G", peg: "#F97316", pegLabel: "Orange", ballEnd: "#16A34A", ballEndLabel: "Green" },
-      { note: "D", peg: "#F97316", pegLabel: "Orange", ballEnd: "#2563EB", ballEndLabel: "Blue" },
-      { note: "A", peg: "#F97316", pegLabel: "Orange", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#F97316", pegLabel: "Orange", ballEnd: "#EAB308", ballEndLabel: "Yellow" },
     ],
   },
  {
@@ -134,7 +112,7 @@ export const STRING_DATABASE: StringSet[] = [
   },
   {
     brand: "Pirastro",
-    model: "Flexocor Chromesteel Med Or Light Orch",
+    model: "Flexocor Chromesteel Med, Light or Heavy Orch",
     strings: [
       { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#722F37", ballEndLabel: "Wine" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#722F37", ballEndLabel: "Wine" },
@@ -146,10 +124,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Pirastro",
     model: "Original Flexocor Medium Orch",
     strings: [
-      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#722F37", ballEndLabel: "Wine" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#722F37", ballEndLabel: "Wine" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#722F37", ballEndLabel: "Wine" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
     ],
   }
 ];
