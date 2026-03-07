@@ -55,17 +55,15 @@ const BrandBrowser = () => {
                         />
                         <span className="text-[10px] text-muted-foreground">Peg</span>
                       </div>
-                      <div className="flex flex-col items-center gap-5">
+                      <div className="flex flex-col items-center gap-1">
                         <span
                           className="w-5 h-5 rounded-full border border-border"
                           style={{ background: s.ballEnd }}
                         />
-                        <span className="text-[10px] text-muted-foreground">Ball</span>
+                     <div className="flex flex-col items-center text-[10px] text-muted-foreground">
+                        <span>{s.pegLabel}</span>
+                        <span>{s.ballEndLabel}</span>
                       </div>
-                    </div>
-                    <span className="text-[10px] text-muted-foreground">
-                      {s.pegLabel} {s.ballEndLabel}
-                    </span>
                   </div>
                 ))}
               </div>
