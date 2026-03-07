@@ -52,7 +52,7 @@ const BrandBrowser = () => {
                         <span
                           className="w-5 h-5 rounded-full border border-border"
                           style={{ background: s.peg }}
-                        />
+                        ->
                         <span className="text-[10px] text-muted-foreground">Peg</span>
                       </div>
                       <div className="flex flex-col items-center gap-1">
