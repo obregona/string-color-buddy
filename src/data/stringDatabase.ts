@@ -19,7 +19,7 @@ export interface StringSet {
 
 export const COLORS = [
   { label: "Red", value: "#DC2626" },
-  { label: "Wine", value: "#991B1B" },
+  { label: "Dark Red", value: "#991B1B" },
   { label: "Blue", value: "#2563EB" },
   { label: "Dark Blue", value: "#1E3A8A" },
   { label: "Green", value: "#16A34A" },
@@ -33,6 +33,7 @@ export const COLORS = [
   { label: "Silver", value: "#A8A29E" },
   { label: "Gold", value: "#CA8A04" },
   { label: "Pink", value: "#EC4899" },
+  { label: "Wine", value: ¨#722F37¨ },
   
   { 
     label: "Red/White Spiral", 
@@ -134,10 +135,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Pirastro",
     model: "Flexocor Chromesteel Med Or Light Orch",
     strings: [
-      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#991B1B", ballEndLabel: "Wine" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#991B1B", ballEndLabel: "Wine" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#991B1B", ballEndLabel: "Wine" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#991B1B", ballEndLabel: "Wine" },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#722F37", ballEndLabel: "Wine" },
     ],
   },
   {
