@@ -34,6 +34,7 @@ export const COLORS = [
   { label: "Gold", value: "#CA8A04" },
   { label: "Pink", value: "#EC4899" },
   { label: "Wine", value: "#722F37" },
+  { label: "Violet", value: "#8B5CF6" },
   
   { 
     label: "Red/White Spiral", 
@@ -143,36 +144,12 @@ export const STRING_DATABASE: StringSet[] = [
   },
   {
     brand: "Pirastro",
-    model: "Perpetual",
+    model: "Original Flexocor Medium Orch",
     strings: [
-      { 
-        note: "G", 
-        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
-        pegLabel: "Yellow/Grey Stripe", 
-        ballEnd: "#A1A1AA", 
-        ballEndLabel: "Grey" 
-      },
-      { 
-        note: "D", 
-        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
-        pegLabel: "Yellow/Grey Stripe", 
-        ballEnd: "#A1A1AA", 
-        ballEndLabel: "Grey" 
-      },
-      { 
-        note: "A", 
-        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
-        pegLabel: "Yellow/Grey Stripe", 
-        ballEnd: "#A1A1AA", 
-        ballEndLabel: "Grey" 
-      },
-      { 
-        note: "E", 
-        peg: "repeating-linear-gradient(45deg, #EAB308, #EAB308 6px, #A1A1AA 6px, #A1A1AA 8px)", 
-        pegLabel: "Yellow/Grey Stripe", 
-        ballEnd: "#A1A1AA", 
-        ballEndLabel: "Grey" 
-      },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#722F37", ballEndLabel: "Wine" },
     ],
   }
 ];
