@@ -51,14 +51,14 @@ const BrandBrowser = () => {
                       <div className="flex flex-col items-center gap-1">
                         <span
                           className="w-5 h-5 rounded-full border border-border"
-                          style={{ backgroundColor: s.peg }}
+                          style={{ background: s.peg }}
                         />
                         <span className="text-[10px] text-muted-foreground">Peg</span>
                       </div>
                       <div className="flex flex-col items-center gap-1">
                         <span
                           className="w-5 h-5 rounded-full border border-border"
-                          style={{ backgroundColor: s.ballEnd }}
+                          style={{ background: s.ballEnd }}
                         />
                         <span className="text-[10px] text-muted-foreground">Ball</span>
                       </div>
