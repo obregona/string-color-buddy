@@ -54,7 +54,7 @@ export const COLORS = [
   },
   { 
     label: "Purple/White Spiral", 
-    value: "repeating-linear-gradient(45deg, #9333EA, #9333EA 6px, #F5F5F4 6px, #F5F5F4 8px)" 
+    value: "repeating-linear-gradient(45deg, #9333EA, #F5F5F4 6px, #9333EA 6px, #F5F5F4 8px)" 
   },
   { 
     label: "Red/Black Spiral", 
@@ -90,16 +90,6 @@ export const STRING_DATABASE: StringSet[] = [
        ballEndLabel: "Orange/Black Stripes" },
     ],
   },
-  {
-    brand: "Thomastik-Infeld",
-    model: "Spirocore",
-    strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
-    ],
-  },
  {
     brand: "Pirastro",
     model: "Evah Pirazzi Medium or Light Orch",
@@ -130,6 +120,26 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
     ],
   }
+   {
+    brand: "Pirastro",
+    model: "Flat-Chrome Medium Orch",
+    strings: [
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+    ],
+  }
+    {
+    brand: "Thomastik-Infeld",
+    model: "Spirocore",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+    ],
+  },
 ];
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
