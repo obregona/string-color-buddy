@@ -61,6 +61,11 @@ export const COLORS = [
     label: "Red/Black Spiral", 
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
   },
+  { label: "Grey/BlackandOrange Spiral", value: "#A8A29E" },
+  { 
+    label: "Grey/BlackandOrange Spiral", 
+    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)" 
+  },
    { 
     label: "Red/Black Spiral", 
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
@@ -203,9 +208,29 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
     ],
   },
+{
+    brand: "Thomastik-Infeld",
+    model: "Belcanto Orch",
+    strings: [
+      { note: "G", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
+      { note: "D", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
+      { note: "A", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
+      { note: "E", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
+    ],
+  {
+    brand: "Thomastik-Infeld",
+    model: "Precision Medium Orch",
+    strings: [
+      { note: "G", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/Black/Orange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/Black/Orange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/Black/Orange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/Black/Orange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+    ],
+  },
+  },
     {
     brand: "Thomastik-Infeld",
-    model: "Spirocore",
+    model: "Spirocore Light Medium or Heavy Orch",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
@@ -214,6 +239,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
 ];
+
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
   const results: { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] = [];
