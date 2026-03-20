@@ -254,6 +254,16 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)", pegLabel: "Black/Blue Spiral", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
     ],
   },
+  {
+    brand: "Corelli",
+    model: "370 F Medium Orch",
+    strings: [
+      { note: "G", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
+      { note: "D", peg: "#8B5CF6", pegLabel: "Violet", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
+    ],
+  },
     {
     brand: "Thomastik-Infeld",
     model: "Spirocore Light Medium or Heavy Orch",
