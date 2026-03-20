@@ -61,10 +61,9 @@ export const COLORS = [
     label: "Red/Black Spiral", 
     value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
   },
-  { label: "Grey/BlackandOrange Spiral", value: "#A8A29E" },
   { 
     label: "Grey/BlackandOrange Spiral", 
-    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)" 
+    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" 
   },
    { 
     label: "Red/Black Spiral", 
