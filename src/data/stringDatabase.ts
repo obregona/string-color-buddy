@@ -227,7 +227,6 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
     ],
   },
-  },
     {
     brand: "Thomastik-Infeld",
     model: "Spirocore Light Medium or Heavy Orch",
