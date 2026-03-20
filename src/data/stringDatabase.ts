@@ -89,6 +89,10 @@ export const COLORS = [
   label: "White/Brown Spiral", 
   value: "repeating-linear-gradient(45deg, #FFFFFF, #FFFFFF 6px, #78350F 6px, #78350F 8px)" 
   },
+  { 
+    label: "Violet/Gold Stripe", 
+    value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)" 
+  },
   
 ] as const;
 
@@ -207,6 +211,16 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
     ],
   },
+  {
+    brand: "D'Addario",
+    model: "Helicore Hybrid Light Medium or Heavy Solo",
+    strings: [
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
+    ],
+  },
 {
     brand: "Thomastik-Infeld",
     model: "Belcanto Orch",
@@ -221,10 +235,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Thomastik-Infeld",
     model: "Precision Medium Orch",
     strings: [
-      { note: "G", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "G", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
     ],
   },
     {
@@ -238,6 +252,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
 ];
+
 
 
 export function findStringsByColors(pegColor: string | null, ballEndColor: string | null): { brand: string; model: string; note: string; pegLabel: string; ballEndLabel: string }[] {
