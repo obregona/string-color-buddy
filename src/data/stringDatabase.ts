@@ -88,6 +88,7 @@ export const COLORS = [
   { label: "Black/Purple Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #9333EA 6px, #9333EA 8px)" },
   { label: "Black/Blue Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)" },
   { label: "Violet/Gold Spiral", value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)" },
+  { label: "Light Blue/Black Spiral", value: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)" },
   { 
   label: "White/Brown Spiral", 
   value: "repeating-linear-gradient(45deg, #FFFFFF, #FFFFFF 6px, #78350F 6px, #78350F 8px)" 
@@ -262,6 +263,16 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#8B5CF6", pegLabel: "Violet", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
       { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)", ballEndLabel: "Orange/Black Spiral" },
+    ],
+  },
+  {
+    brand: "Corelli",
+    model: "370 M Light Orch",
+    strings: [
+      { note: "G", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)", ballEndLabel: "Light Blue/Black Spiral" },
+      { note: "D", peg: "#8B5CF6", pegLabel: "Violet", ballEnd: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)", ballEndLabel: "Light Blue/Black Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)", ballEndLabel: "Light Blue/Black Spiral" },
+      { note: "E", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)", ballEndLabel: "Light Blue/Black Spiral" },
     ],
   },
     {
