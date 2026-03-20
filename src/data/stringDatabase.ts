@@ -91,7 +91,7 @@ export const COLORS = [
   },
   { 
     label: "Violet/Gold Stripe", 
-    value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)" 
+    value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)" 
   },
   
 ] as const;
@@ -215,10 +215,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "D'Addario",
     model: "Helicore Hybrid Light Medium or Heavy Solo",
     strings: [
-      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 8px, #CA8A04 8px, #CA8A04 10px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
     ],
   },
 {
