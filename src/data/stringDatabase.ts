@@ -217,6 +217,7 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "A", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
       { note: "E", peg: "#EA580C", pegLabel: "Orange", ballEnd: "#EA580C", ballEndLabel: "Orange" },
     ],
+  },
   {
     brand: "Thomastik-Infeld",
     model: "Precision Medium Orch",
