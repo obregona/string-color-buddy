@@ -64,7 +64,7 @@ export const COLORS = [
   { label: "Grey/BlackandOrange Spiral", value: "#A8A29E" },
   { 
     label: "Grey/BlackandOrange Spiral", 
-    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)" 
+    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)" 
   },
    { 
     label: "Red/Black Spiral", 
@@ -222,10 +222,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Thomastik-Infeld",
     model: "Precision Medium Orch",
     strings: [
-      { note: "G", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
-      { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 8px, #EA580C 8px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "G", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #1C1917 6px, #EA580C 8px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
     ],
   },
     {
