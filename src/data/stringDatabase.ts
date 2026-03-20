@@ -83,8 +83,11 @@ export const COLORS = [
   },
   { 
   label: "Brown/White Spiral", 
-  value: "repeating-linear-gradient(45deg, #78350F, #78350F 6px, #FFFFFF 6px, #FFFFFF 8px)" 
-  },
+  value: "repeating-linear-gradient(45deg, #78350F, #78350F 6px, #FFFFFF 6px, #FFFFFF 8px)" },
+  { label: "Black/Yellow Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" },
+  { label: "Black/Purple Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #9333EA 6px, #9333EA 8px)" },
+  { label: "Black/Blue Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)" },
+  { label: "Violet/Gold Spiral", value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)" },
   { 
   label: "White/Brown Spiral", 
   value: "repeating-linear-gradient(45deg, #FFFFFF, #FFFFFF 6px, #78350F 6px, #78350F 8px)" 
@@ -239,6 +242,16 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
       { note: "A", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
       { note: "E", peg: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)", pegLabel: "Grey/BlackandOrange Spiral", ballEnd: "#1C1917", ballEndLabel: "Black" },
+    ],
+  },
+  {
+    brand: "Corelli",
+    model: "370 TX Fort Tirant Heavy Orch",
+    strings: [
+      { note: "G", peg: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)", pegLabel: "Black/Yellow Spiral", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "D", peg: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #9333EA 6px, #9333EA 8px)", pegLabel: "Black/Purple Spiral", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "E", peg: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)", pegLabel: "Black/Blue Spiral", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
     ],
   },
     {
