@@ -277,7 +277,7 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "D'Addario",
     model: "Helicore Hybrid Light Medium or Heavy Orch",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
+      { note: "G", peg: "#722F37", pegLabel: "Wine", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
       { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
@@ -294,6 +294,36 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
     {
+    brand: "Jargar",
+    model: "Light (Dolce) Orch",
+    strings: [
+      { note: "G", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "A", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#16A34A", ballEndLabel: "Green" },
+    ],
+  },
+      {
+    brand: "Jargar",
+    model: "Medium Orch",
+    strings: [
+      { note: "G", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "D", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "A", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "E", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+    ],
+  },
+      {
+    brand: "Jargar",
+    model: "Heavy (Forte) Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+    ],
+  },
+      {
     brand: "D'Addario",
     model: "Zyex Light Medium or Heavy Orch",
     strings: [
