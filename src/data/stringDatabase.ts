@@ -321,13 +321,13 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
         {
-    brand: "Jargar",
-    model: "Heavy (Forte) Orch",
+    brand: "D'Addario",
+    model: "Zyex Orch",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
-      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
-      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
     ],
   },
       {
