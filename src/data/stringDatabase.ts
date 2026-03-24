@@ -24,6 +24,7 @@ export const COLORS = [
   { label: "Light Blue", value: "#BAE6FD" },
   { label: "Dark Blue", value: "#1E3A8A" },
   { label: "Green", value: "#16A34A" },
+  { label: "Pale Green", value: "#BBF7D0" },
   { label: "Dark Green", value: "#166534" },
   { label: "Yellow", value: "#EAB308" },
   { label: "Orange", value: "#EA580C" },
@@ -36,19 +37,7 @@ export const COLORS = [
   { label: "Pink", value: "#EC4899" },
   { label: "Wine", value: "#722F37" },
   { label: "Violet", value: "#8B5CF6" },
-  
-  { 
-    label: "Red/White Spiral", 
-    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #F5F5F4 6px, #F5F5F4 8px)" 
-  },
-  { 
-    label: "Blue/White Spiral", 
-    value: "repeating-linear-gradient(45deg, #2563EB, #2563EB 6px, #F5F5F4 6px, #F5F5F4 8px)" 
-  },
-  { 
-    label: "Green/White Spiral", 
-    value: "repeating-linear-gradient(45deg, #16A34A, #16A34A 6px, #F5F5F4 6px, #F5F5F4 8px)" 
-  },
+
   { 
     label: "Black/Yellow Spiral", 
     value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" 
@@ -58,16 +47,8 @@ export const COLORS = [
     value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)" 
   },
   { 
-    label: "Red/Black Spiral", 
-    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
-  },
-  { 
     label: "Grey/BlackandOrange Spiral", 
     value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" 
-  },
-   { 
-    label: "Red/Black Spiral", 
-    value: "repeating-linear-gradient(45deg, #DC2626, #DC2626 6px, #1C1917 6px, #1C1917 8px)" 
   },
   { 
   label: "Dark Green/Black Spiral", 
@@ -89,15 +70,12 @@ export const COLORS = [
   { label: "Black/Blue Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)" },
   { label: "Violet/Gold Spiral", value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)" },
   { label: "Light Blue/Black Spiral", value: "repeating-linear-gradient(45deg, #BAE6FD, #BAE6FD 6px, #1C1917 6px, #1C1917 8px)" },
-  { 
-  label: "White/Brown Spiral", 
-  value: "repeating-linear-gradient(45deg, #FFFFFF, #FFFFFF 6px, #78350F 6px, #78350F 8px)" 
-  },
-  { 
-    label: "Violet/Gold Stripe", 
-    value: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)" 
-  },
-  
+  { label: "White/Brown Spiral", value: "repeating-linear-gradient(45deg, #FFFFFF, #FFFFFF 6px, #78350F 6px, #78350F 8px)" },
+  {label: "Blue/Gold Spiral", value: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)" },
+  {label: "Dark Green/Gold Spiral", value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)" },
+  {label: "Green/Black Spiral", value: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)" },
+  {label: "Orange/Red Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)" },
+  {label: "Gold/Violet Spiral", value: "repeating-linear-gradient(45deg, #CA8A04, #CA8A04 6px, #8B5CF6 6px, #8B5CF6 8px)" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
@@ -219,10 +197,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "D'Addario",
     model: "Helicore Hybrid Light Medium or Heavy Solo",
     strings: [
-      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
-      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Stripe" },
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "A", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #8B5CF6, #8B5CF6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Violet/Gold Spiral" },
     ],
   },
 {
@@ -283,6 +261,46 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+    ],
+  },
+  {
+    brand: "D´Addario",
+    model: "Helicore Light Medium or Heavy Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Blue/Gold Spiral" },
+      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Blue/Gold Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Blue/Gold Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Blue/Gold Spiral" },
+    ],
+  },
+  {
+    brand: "D´Addario",
+    model: "Helicore Hybrid Light Medium or Heavy Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
+      { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
+    ],
+  },
+  {
+    brand: "D´Addario",
+    model: "Kaplan Light Medium or Heavy Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+      { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+      { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+    ],
+  },
+    {
+    brand: "D´Addario",
+    model: "Zyex Light Medium or Heavy Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
     ],
   },
 ];
