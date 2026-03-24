@@ -37,11 +37,7 @@ export const COLORS = [
   { label: "Pink", value: "#EC4899" },
   { label: "Wine", value: "#722F37" },
   { label: "Violet", value: "#8B5CF6" },
-
-  { 
-    label: "Black/Yellow Spiral", 
-    value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" 
-  },
+  { label: "Black/Yellow Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" },
   { 
     label: "White/Purple Spiral", 
     value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)" 
@@ -76,6 +72,7 @@ export const COLORS = [
   {label: "Green/Black Spiral", value: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)" },
   {label: "Orange/Red Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)" },
   {label: "Gold/Violet Spiral", value: "repeating-linear-gradient(45deg, #CA8A04, #CA8A04 6px, #8B5CF6 6px, #8B5CF6 8px)" },
+  { label: "Grey/Black Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
@@ -290,7 +287,7 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
       { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
-      { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
     ],
   },
     {
