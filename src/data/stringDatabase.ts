@@ -284,10 +284,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "D'Addario",
     model: "Kaplan Light Medium or Heavy Orch",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
-      { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
-      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Grey/Black Spiral" },
+      { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Grey/Black Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Grey/Black Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Grey/Black Spiral" },
     ],
   },
     {
@@ -320,14 +320,24 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
     ],
   },
-      {
-    brand: "D'Addario",
-    model: "Zyex Light Medium or Heavy Orch",
+        {
+    brand: "Jargar",
+    model: "Heavy (Forte) Orch",
     strings: [
-      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
-      { note: "D", peg: "#CA8A04", pegLabel: "Gold", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
-      { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+    ],
+  },
+      {
+    brand: "Thomastik-Infeld",
+    model: "Superflexible Orch",
+    strings: [
+      { note: "G", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "D", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "A", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
+      { note: "E", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "#BAE6FD", ballEndLabel: "Light Blue" },
     ],
   },
 ];
