@@ -284,7 +284,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
   {
-    brand: "D´Addario",
+    brand: "D'Addario",
     model: "Kaplan Light Medium or Heavy Orch",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #22C55E, #22C55E 6px, #000000 6px, #000000 8px)", ballEndLabel: "Green/Black Spiral" },
@@ -294,7 +294,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
     {
-    brand: "D´Addario",
+    brand: "D'Addario",
     model: "Zyex Light Medium or Heavy Orch",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
