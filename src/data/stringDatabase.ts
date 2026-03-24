@@ -38,29 +38,12 @@ export const COLORS = [
   { label: "Wine", value: "#722F37" },
   { label: "Violet", value: "#8B5CF6" },
   { label: "Black/Yellow Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" },
-  { 
-    label: "White/Purple Spiral", 
-    value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)" 
-  },
-  { 
-    label: "Grey/BlackandOrange Spiral", 
-    value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" 
-  },
-  { 
-  label: "Dark Green/Black Spiral", 
-  value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" 
-  },
-  { 
-  label: "Orange/Black Spiral", 
-  value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)" 
-  },
-  { 
-  label: "Yellow/Blue Spiral", 
-  value: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)" 
-  },
-  { 
-  label: "Brown/White Spiral", 
-  value: "repeating-linear-gradient(45deg, #78350F, #78350F 6px, #FFFFFF 6px, #FFFFFF 8px)" },
+  {label: "White/Purple Spiral", value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)"  },
+  {label: "Grey/BlackandOrange Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" },
+  {label: "Dark Green/Black Spiral", value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" },
+  {label: "Orange/Black Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)" },
+  {label: "Yellow/Blue Spiral", value: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)" },
+  {label: "Brown/White Spiral", value: "repeating-linear-gradient(45deg, #78350F, #78350F 6px, #FFFFFF 6px, #FFFFFF 8px)" },
   { label: "Black/Yellow Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #EAB308 6px, #EAB308 8px)" },
   { label: "Black/Purple Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #9333EA 6px, #9333EA 8px)" },
   { label: "Black/Blue Spiral", value: "repeating-linear-gradient(45deg, #1C1917, #1C1917 6px, #2563EB 6px, #2563EB 8px)" },
@@ -73,7 +56,7 @@ export const COLORS = [
   {label: "Orange/Red Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)" },
   {label: "Gold/Violet Spiral", value: "repeating-linear-gradient(45deg, #CA8A04, #CA8A04 6px, #8B5CF6 6px, #8B5CF6 8px)" },
   { label: "Grey/Black Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)" },
-  { label: "Black/Red Ends", value: "repeating-linear-gradient(45deg, #EF4444, #EF4444 6px, #000000 6px, #000000 20px)" },
+  { label: "Black/Red Ends", value: "repeating-linear-gradient(45deg, #EF4444, #EF4444 6px, #000000 6px, #000000 14px)" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
