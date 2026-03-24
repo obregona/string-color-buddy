@@ -264,7 +264,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
   {
-    brand: "D´Addario",
+    brand: "D'Addario",
     model: "Helicore Light Medium or Heavy Orch",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #3B82F6, #3B82F6 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Blue/Gold Spiral" },
@@ -274,7 +274,7 @@ export const STRING_DATABASE: StringSet[] = [
     ],
   },
   {
-    brand: "D´Addario",
+    brand: "D'Addario",
     model: "Helicore Hybrid Light Medium or Heavy Orch",
     strings: [
       { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #CA8A04 6px, #CA8A04 8px)", ballEndLabel: "Dark Green/Gold Spiral" },
