@@ -390,10 +390,10 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "D'Addario",
     model: "Kaplan Solo",
     strings: [
-      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
-      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
-      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
-      { note: "E", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #4B5563, #4B5563 6px, #A8A29E 6px, #A8A29E 8px)", ballEndLabel: "Dark Grey/Silver Spiral" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #4B5563, #4B5563 6px, #A8A29E 6px, #A8A29E 8px)", ballEndLabel: "Dark Grey/Silver Spiral" },
+      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #4B5563, #4B5563 6px, #A8A29E 6px, #A8A29E 8px)", ballEndLabel: "Dark Grey/Silver Spiral" },
+      { note: "E", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "repeating-linear-gradient(45deg, #4B5563, #4B5563 6px, #A8A29E 6px, #A8A29E 8px)", ballEndLabel: "Dark Grey/Silver Spiral" },
     ],
   },
       {
