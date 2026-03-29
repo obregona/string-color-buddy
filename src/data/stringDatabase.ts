@@ -37,6 +37,7 @@ export const COLORS = [
   { label: "Pink", value: "#EC4899" },
   { label: "Wine", value: "#722F37" },
   { label: "Violet", value: "#8B5CF6" },
+  { label: "Turquoise", value: "#40E0D0" },
   {label: "White/Purple Spiral", value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)"  },
   {label: "Grey/BlackandOrange Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" },
   {label: "Dark Green/Black Spiral", value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" },
@@ -55,7 +56,9 @@ export const COLORS = [
   {label: "Orange/Red Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)" },
   {label: "Gold/Violet Spiral", value: "repeating-linear-gradient(45deg, #CA8A04, #CA8A04 6px, #8B5CF6 6px, #8B5CF6 8px)" },
   { label: "Grey/Black Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)" },
+  { label: "Dark Grey/Silver Spiral", value: "repeating-linear-gradient(45deg, #4B5563, #4B5563 6px, #A8A29E 6px, #A8A29E 8px)" },
   { label: "Black/Red Ends", value: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)" },
+  { label: "Red/Turquoise Ends", value: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
@@ -311,6 +314,86 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)", ballEndLabel: "Orange/Red Spiral" },
+    ],
+  },
+   {
+    brand: "LaBella",
+    model: "LaBella 7710T White Tape Wound Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd:"#1C1917", ballEndLabel: "Black" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd:"#1C1917", ballEndLabel: "Black" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd:"#1C1917", ballEndLabel: "Black" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd:"#1C1917", ballEndLabel: "Black" },
+    ],
+  },
+    {
+    brand: "LaBella",
+    model: "7720S Solo/Extra Light",
+    strings: [
+      { note: "G", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "D", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+      { note: "E", peg: "#2563EB", pegLabel: "Blue", ballEnd: "#2563EB", ballEndLabel: "Blue" },
+    ],
+  },
+      {
+    brand: "LaBella",
+    model: "LaBella 7720L Light Orch",
+    strings: [
+      { note: "G", peg: "#40E0D0", pegLabel: "Turquoise", ballEnd: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", ballEndLabel: "Red/Turquoise Ends" },
+      { note: "D", peg: "#40E0D0", pegLabel: "Turquoise", ballEnd: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", ballEndLabel: "Red/Turquoise Ends" },
+      { note: "A", peg: "#40E0D0", pegLabel: "Turquoise", ballEnd: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", ballEndLabel: "Red/Turquoise Ends" },
+      { note: "E", peg: "#40E0D0", pegLabel: "Turquoise", ballEnd: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", ballEndLabel: "Red/Turquoise Ends" },
+    ],
+  },
+      {
+    brand: "LaBella",
+    model: "7720M Medium Orch",
+    strings: [
+      { note: "G", peg: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", pegLabel: "Red/Turquoise Ends", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "D", peg: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", pegLabel: "Red/Turquoise Ends", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", pegLabel: "Red/Turquoise Ends", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "linear-gradient(45deg, #40E0D0 0%, #40E0D0 30%, #EF4444 30%, #EF4444 70%, #40E0D0 70%, #40E0D0 100%)", pegLabel: "Red/Turquoise Ends", ballEnd: "#DC2626", ballEndLabel: "Red" },
+    ],
+  },
+      {
+    brand: "LaBella",
+    model: "980 Gut Set Orch",
+    strings: [
+      { note: "G", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+    ],
+  },
+      {
+    brand: "LaBella",
+    model: "LaBella RC610, aka 610 Set Orch",
+    strings: [
+      { note: "G", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#9333EA", ballEndLabel: "Purple" },
+      { note: "D", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#9333EA", ballEndLabel: "Purple" },
+      { note: "A", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#9333EA", ballEndLabel: "Purple" },
+      { note: "E", peg: "#9333EA", pegLabel: "Purple", ballEnd: "#9333EA", ballEndLabel: "Purple" },
+    ],
+  },
+      {
+    brand: "LaBella",
+    model: "Supernil Orch",
+    strings: [
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: #1C1917, ballEndLabel: "Black" },
+      { note: "D", peg: "#1C1917", pegLabel: "Black", ballEnd: #1C1917, ballEndLabel: "Black" },
+      { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+      { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
+    ],
+  },
+      {
+    brand: "D'Addario",
+    model: "Kaplan Solo",
+    strings: [
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
+      { note: "D", peg: "#16A34A", pegLabel: "Green", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
+      { note: "A", peg: "#2563EB", pegLabel: "Blue", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
+      { note: "E", peg: "#A8A29E", pegLabel: "Silver", ballEnd: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)", ballEndLabel: "Black/Red Ends" },
     ],
   },
       {
