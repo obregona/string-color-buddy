@@ -120,9 +120,9 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "Pirastro",
     model: "Permanent Medium Orch",
     strings: [
-      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd:"repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Yellow/Blue Spiral" },
-      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Yellow/Blue Spiral" },
-      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)", ballEndLabel: "Yellow/Blue Spiral" },
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd:"repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #FDE047, #FDE047 6px, #1E40AF 6px, #1E40AF 8px)", ballEndLabel: "Yellow/Blue Spiral" },
     ],
   },
@@ -380,8 +380,8 @@ export const STRING_DATABASE: StringSet[] = [
     brand: "LaBella",
     model: "Supernil Orch",
     strings: [
-      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: #1C1917, ballEndLabel: "Black" },
-      { note: "D", peg: "#1C1917", pegLabel: "Black", ballEnd: #1C1917, ballEndLabel: "Black" },
+      { note: "G", peg: "#1C1917", pegLabel: "Black", ballEnd: "#1C1917", ballEndLabel: "Black" },
+      { note: "D", peg: "#1C1917", pegLabel: "Black", ballEnd: "#1C1917", ballEndLabel: "Black" },
       { note: "A", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
       { note: "E", peg: "#DC2626", pegLabel: "Red", ballEnd: "#DC2626", ballEndLabel: "Red" },
     ],
