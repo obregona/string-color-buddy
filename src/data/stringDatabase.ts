@@ -119,7 +119,7 @@ export const STRING_DATABASE: StringSet[] = [
   },
       {
     brand: "Pirastro",
-    model: "Flexocor Deluxe Solo agregar",
+    model: "Flexocor Deluxe Solo",
     strings: [
       { note: "A", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
       { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
