@@ -39,6 +39,7 @@ export const COLORS = [
   { label: "Violet", value: "#8B5CF6" },
   { label: "Turquoise", value: "#40E0D0" },
   {label: "White/Purple Spiral", value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #9333EA 6px, #9333EA 8px)"  },
+  {label: "White/Red Spiral", value: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)"  },
   {label: "Grey/BlackandOrange Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 4px, #1C1917 4px, #1C1917 6px, #A8A29E 6px, #A8A29E 10px, #EA580C 10px, #EA580C 12px)" },
   {label: "Dark Green/Black Spiral", value: "repeating-linear-gradient(45deg, #064E3B, #064E3B 6px, #000000 6px, #000000 8px)" },
   {label: "Orange/Black Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #000000 6px, #000000 8px)" },
@@ -104,6 +105,26 @@ export const STRING_DATABASE: StringSet[] = [
       { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
       { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
       { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#8B5CF6", ballEndLabel: "Violet" },
+    ],
+  },
+    {
+    brand: "Pirastro",
+    model: "Flexocor Deluxe Orch",
+    strings: [
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+    ],
+  },
+      {
+    brand: "Pirastro",
+    model: "Flexocor Deluxe Solo agregar",
+    strings: [
+      { note: "A", peg: "#BAE6FD", pegLabel: "Light Blue", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "E", peg: "#BBF7D0", pegLabel: "Pale Green", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "B", peg: "#EAB308", pegLabel: "Yellow", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
+      { note: "F#", peg: "#2563EB", pegLabel: "Blue", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
     ],
   },
    {
