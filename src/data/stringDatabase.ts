@@ -55,7 +55,7 @@ export const COLORS = [
   {label: "Orange/Red Spiral", value: "repeating-linear-gradient(45deg, #F97316, #F97316 6px, #EF4444 6px, #EF4444 8px)" },
   {label: "Gold/Violet Spiral", value: "repeating-linear-gradient(45deg, #CA8A04, #CA8A04 6px, #8B5CF6 6px, #8B5CF6 8px)" },
   { label: "Grey/Black Spiral", value: "repeating-linear-gradient(45deg, #A8A29E, #A8A29E 6px, #000000 6px, #000000 8px)" },
-  { label: "Black/Red Ends", value: "linear-gradient(45deg, #EF4444 0%, #EF4444 20%, #1C1917 20%, #1C1917 80%, #EF4444 80%, #EF4444 100%)" },
+  { label: "Black/Red Ends", value: "linear-gradient(45deg, #EF4444 0%, #EF4444 30%, #1C1917 30%, #1C1917 70%, #EF4444 70%, #EF4444 100%)" },
 ] as const;
 
 export const STRING_DATABASE: StringSet[] = [
