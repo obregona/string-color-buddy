@@ -96,7 +96,7 @@ const SuggestionForm = () => {
             onChange={(e) => setMessage(e.target.value)}
             rows={4}
             className="w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring resize-none"
-            placeholder="e.g. 'Please add Jargar strings...'"
+            placeholder="e.g. 'Please add X strings, the X strings color are wrong...'"
             disabled={isSending}
           />
           {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
