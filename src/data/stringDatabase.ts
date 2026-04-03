@@ -109,6 +109,16 @@ export const STRING_DATABASE: StringSet[] = [
   },
     {
     brand: "Pirastro",
+    model: "Flexocor",
+    strings: [
+      { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "D", peg: "#DC2626", pegLabel: "Red", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "A", peg: "#1C1917", pegLabel: "Black", ballEnd: "#722F37", ballEndLabel: "Wine" },
+      { note: "E", peg: "#16A34A", pegLabel: "Green", ballEnd: "#722F37", ballEndLabel: "Wine" },
+    ],
+  },
+    {
+    brand: "Pirastro",
     model: "Flexocor Deluxe Orch",
     strings: [
       { note: "G", peg: "#92400E", pegLabel: "Brown", ballEnd: "repeating-linear-gradient(45deg, #F5F5F4, #F5F5F4 6px, #DC2626 6px, #DC2626 8px)", ballEndLabel: "White/Red Spiral" },
