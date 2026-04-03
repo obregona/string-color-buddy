@@ -38,7 +38,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t border-border/50 py-6">
         <p className="text-center text-xs text-muted-foreground">
-          Bass String Identifier — Built for bassists, by bassists
+          Bass String Identifier
         </p>
       </footer>
     </div>
